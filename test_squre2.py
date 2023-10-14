@@ -14,3 +14,8 @@ def test_greater_equal():
 def test_less():
    num = 100
    assert num < 200
+
+pytest.mark.win
+def test_greater_less():
+   num = 100
+   assert num < 200
