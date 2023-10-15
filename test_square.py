@@ -16,7 +16,6 @@ def test_newtab():
     time.sleep(3)
     newtab=driver.find_element(By.ID,"tabButton")
     newtab.click()
-
     print(driver.window_handles)
     for handle in driver.window_handles:
         if handle != main_page:
@@ -34,7 +33,7 @@ def test_newtab():
     driver.close()
 @pytest.mark.great    
 @pytest.mark.win
-def test_newwindow():
+def test_new_window():
     driver=webdriver.Chrome()
     driver.maximize_window()
     driver.implicitly_wait(10)
