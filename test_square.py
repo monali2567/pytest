@@ -34,7 +34,7 @@ def test_new_tab_abc():
     driver.close()
 @pytest.mark.great    
 @pytest.mark.win
-def test_new_window_b():
+def test_new_window_xyz():
     driver=webdriver.Chrome()
     driver.maximize_window()
     driver.implicitly_wait(10)
