@@ -6,7 +6,7 @@ import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 @pytest.mark.great
-def test_newtab():
+def test_new_tab():
     driver=webdriver.Chrome()
     driver.maximize_window()
     driver.implicitly_wait(10)
