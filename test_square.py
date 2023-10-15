@@ -33,7 +33,7 @@ def test_new_tab():
     # assert title == driver.title
     driver.close()
 @pytest.mark.win
-def test_newwindow():
+def test_newwindow_a():
     driver=webdriver.Chrome()
     driver.maximize_window()
     driver.implicitly_wait(10)
