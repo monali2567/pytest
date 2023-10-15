@@ -32,6 +32,7 @@ def test_newtab():
     # title = "Sample page - lambdatest.com"
     # assert title == driver.title
     driver.close()
+@pytest.mark.great    
 @pytest.mark.win
 def test_newwindow():
     driver=webdriver.Chrome()
